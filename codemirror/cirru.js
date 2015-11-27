@@ -12,7 +12,7 @@
 })(function(CodeMirror) {
 "use strict";
 
-  CodeMirror.defineMode("css", function(config, parserConfig) {
+  CodeMirror.defineMode("cirru", function(config, parserConfig) {
     return {
       startState: function() {
         return {
