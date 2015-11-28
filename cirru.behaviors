@@ -1,3 +1,4 @@
-{:+ {:app [(:lt.objs.plugins/load-js ["codemirror/cirru.js" "cirru_compiled.js"])]
+{:+ {:app [(:lt.objs.plugins/load-js ["codemirror/cirru.js" "cirru_compiled.js"])
+           (:lt.objs.plugins/load-css "codemirror/cirru.css")]
      :files [(:lt.objs.files/file-types [{:name "Cirru" :exts [:cirru] :mime "text/x-cirru" :tags [:editor.cirru]}])]
 }}

@@ -41,7 +41,7 @@
             state.head = false;
             return "keyword";
           } else {
-            return "variable";
+            return "string";
           }
         } else if (stream.match("(")) {
           state.head = true;
